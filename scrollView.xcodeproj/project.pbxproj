@@ -21,6 +21,7 @@
 		00F1964F187D2A34004B4A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F19631187D2A34004B4A92 /* UIKit.framework */; };
 		00F19657187D2A34004B4A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F19655187D2A34004B4A92 /* InfoPlist.strings */; };
 		00F19659187D2A34004B4A92 /* scrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F19658187D2A34004B4A92 /* scrollViewTests.m */; };
+		00F19664187D2C92004B4A92 /* moon-sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F19663187D2C92004B4A92 /* moon-sky.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		00F19654187D2A34004B4A92 /* scrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scrollViewTests-Info.plist"; sourceTree = "<group>"; };
 		00F19656187D2A34004B4A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00F19658187D2A34004B4A92 /* scrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollViewTests.m; sourceTree = "<group>"; };
+		00F19663187D2C92004B4A92 /* moon-sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "moon-sky.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		00F19633187D2A34004B4A92 /* scrollView */ = {
 			isa = PBXGroup;
 			children = (
+				00F19662187D2C6B004B4A92 /* Res */,
 				00F1963C187D2A34004B4A92 /* AppDelegate.h */,
 				00F1963D187D2A34004B4A92 /* AppDelegate.m */,
 				00F1963F187D2A34004B4A92 /* Main.storyboard */,
@@ -150,6 +153,14 @@
 				00F19655187D2A34004B4A92 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F19662187D2C6B004B4A92 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				00F19663187D2C92004B4A92 /* moon-sky.jpg */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F19664187D2C92004B4A92 /* moon-sky.jpg in Resources */,
 				00F19646187D2A34004B4A92 /* Images.xcassets in Resources */,
 				00F19638187D2A34004B4A92 /* InfoPlist.strings in Resources */,
 				00F19641187D2A34004B4A92 /* Main.storyboard in Resources */,
